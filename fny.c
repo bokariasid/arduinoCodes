@@ -5,6 +5,8 @@
 #include "sms.h"
 #include <LiquidCrystal.h>
 SMSGSM sms;
+//2 is receive pin of arduino for the gsm module
+//3 is transfer pin of arduino for the gsm module
 LiquidCrystal lcd(12, 11, 5, 4, 10, 13);
 #define trigPin 9
 #define echoPin 8
