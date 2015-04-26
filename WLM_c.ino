@@ -85,7 +85,7 @@ pos=sms.IsSMSPresent(SMS_UNREAD);
 void suspendSystem(long t){   
   delay(t);
 }
-bool compare(char *mainStr, char *compStr){
+boolean compare(char *mainStr, char *compStr){
   int i=0;
   while(mainStr){
     if(mainStr[i] != compStr[i])
